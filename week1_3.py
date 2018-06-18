@@ -1,0 +1,7 @@
+N = int(input())
+print(2**N)
+print('last character =', N%10)
+print('10*', N//10)
+print('second from the right =' , N%100//10)
+print(N//100+N%100//10+N%10)
+print('A'*100)
